@@ -23,7 +23,7 @@ export const ContactForm = () => {
 
     useEffect(() => {
         if (data.name.length < 4) {
-            setMessage("Your name must have at least 4 characters");
+            setMessage("If you're a pig like me, your name must have at least 4 characters, isn't it?");
             setBtnDisabled(true);
         } else {
             setMessage(null);
@@ -44,7 +44,7 @@ export const ContactForm = () => {
         localStorage.setItem("user", JSON.stringify(data));
         clearState();
         setTimeout(() => {
-            navigate('/home')
+            navigate('/')
         }, 3000);
         setVisible(false)
     };
@@ -52,8 +52,8 @@ export const ContactForm = () => {
     return (
         <>
             <div>
-                <h1>Das formulaire</h1>
-                <p>Please, fill the next gaps</p>
+                <h1>Peppa's form</h1>
+                <p>Please, fill the next gaps or I will die</p>
             </div>
             <form onSubmit={handleSubmit}>
                 <input

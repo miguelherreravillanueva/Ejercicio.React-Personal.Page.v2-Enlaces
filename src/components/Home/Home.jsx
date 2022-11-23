@@ -3,8 +3,12 @@ import React from 'react';
 const Home = ()=>{
     return(
         <>
-            <h1>Home</h1>
-            <p> This is the main page. Get over it. </p>
+           
+            <p> This is Peppa's main page. Just like that. No CSS just oink oink.
+                <br/>
+                <br/>
+                Please, go to my <i>Contact</i>  link and fill up the form or I will die. 
+            </p>
             
         </>
        )
