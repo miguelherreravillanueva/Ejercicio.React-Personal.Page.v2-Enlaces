@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <nav >
       <span>
-       <h1> Peppa Pig's Incredible Non Official Web Page</h1>
+       <h1> 🐷 Peppa Pig's Incredible Non Official Web Page 🐷</h1>
         </span>
       <div className="header">
         <span>
