@@ -1,0 +1,10 @@
+a{
+    text-decoration: none;
+}
+
+.header {
+    background-color: rgb(216, 209, 209);
+    display: flex;
+    justify-content: space-around;
+
+}
